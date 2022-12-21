@@ -1,0 +1,121 @@
+/* ------CUSTOM CSS------ */
+:root {
+  --primary-light-color: #f67e7e;
+  --primary-midnight-color: #014e56;
+  --primary-white-color: #ffffff;
+  /*  secondary-color */
+  --secondary-repture-blue-color: #79c8c7;
+  --secondary-polise-blue-color: #2c6269;
+  --secondary-deap-green-color: #004047;
+  --secondary-sacramento-green-color: #012f34;
+  --secondary-dark-green-color: #002529;
+  /* main */
+  --main-font-family: "Livvic", Arial, Helvetica, sans-serif;
+  --main-font-size-1: 1.8rem;
+  --main-font-size-2: 1.5rem;
+  --main-font-weight: 600;
+  --main-font-weight-2: 700;
+
+  --main-line-height-1: 1.56rem;
+  --main-line-height-2: 1.67rem;
+
+  --h2-size: 4.8rem;
+  --h2-line-height: 1;
+
+  --h3-size: 1.8rem;
+  --h3-line-height: 1.56;
+}
+
+/* contact */
+.contact {
+  padding: 5rem 0 12rem;
+  background-image: url("../images/svg/contact-left-img.svg"),
+    url("../images/svg/contact_right-bottom_img.svg");
+  background-repeat: no-repeat;
+  background-position: left top 4.5rem, right 0 bottom 0;
+}
+
+.contact__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact__info {
+  width: 540px;
+}
+.contact__title {
+  font-family: "Livvic";
+  font-weight: var(--main-font-weight-2);
+  font-size: 64px;
+  line-height: 100px;
+  margin-bottom: 1.6rem;
+}
+.contact__description {
+  font-family: "Livvic";
+  font-weight: var(--main-font-weight-2);
+  font-size: 3.2rem;
+  line-height: 48px;
+  color: var(--primary-light-color);
+  margin-bottom: 3.2rem;
+  line-height: 1.5;
+}
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.contact__item {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+.contact__item-title {
+  font-family: "Livvic";
+  font-weight: var(--main-font-weight-2);
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--primary-white-color);
+}
+/* form */
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  width: 54rem;
+  row-gap: 2.4rem;
+}
+.contact__form input,
+textarea {
+  font-family: "Livvic";
+  font-weight: var(--main-font-weight);
+  padding: 2px 14px 17px;
+  border: none;
+  border-bottom: 1px solid var(--primary-white-color);
+  background-color: transparent;
+  outline: none;
+  color: var(--primary-white-color);
+  opacity: 90%;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.12px;
+}
+.contact__btn {
+  background-color: var(--primary-white-color);
+  margin-right: auto;
+  cursor: pointer;
+  border: 2px solid transparent;
+  /* transition: 0.9s ease; */
+}
+.contact__btn:hover {
+  border-color: var(--primary-white-color);
+  color: var(--primary-white-color);
+  background-color: transparent;
+}
+.submit {
+  font-family: "Livvic";
+  font-weight: var(--main-font-weight);
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--secondary-deap-green-color);
+}
+/* /contact */
